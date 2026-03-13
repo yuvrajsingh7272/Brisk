@@ -1,4 +1,4 @@
-## Brisk_Bot 
+# Brisk_Bot 🤖
 Advanced Gen AI chatbot assistant system
 
 Brisk_Bot is a futuristic and advanced Generative AI chatbot designed to assist clients and provide accurate information about an organization.  
@@ -8,7 +8,7 @@ The system is built to minimize hallucination and ensure responses are generated
 
 ---
 
-# Features
+## Features
 
 - AI-powered conversational assistant for clients
 - Provides detailed information about the organization
@@ -21,7 +21,7 @@ The system is built to minimize hallucination and ensure responses are generated
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Python
 - LangChain
@@ -37,7 +37,7 @@ The system is built to minimize hallucination and ensure responses are generated
 
 ---
 
-# System Architecture
+## System Architecture
 
 1. User sends a query through the Streamlit chatbot interface.
 2. FastAPI handles backend processing.
@@ -49,7 +49,7 @@ The system is built to minimize hallucination and ensure responses are generated
 
 ---
 
-# Use Cases
+## Use Cases
 
 - Client support automation
 - Organization knowledge assistant
