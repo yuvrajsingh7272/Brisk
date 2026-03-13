@@ -24,7 +24,6 @@ os.environ["OPEN_AI_API_KEY"] = os.getenv("OPEN_AI_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 
-
 ## RAG Setup
 
 FAISS_PATH = "../faiss_index/"
@@ -43,9 +42,7 @@ llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.6)
 llm = ChatOpenAI(model="llama-3.3-70b-versatile", temperature=0.6)
 
 
-
 retriever = db.as_retriever(search_kwargs={"k":3})
-
 
 
 SYSTEM_PROMPT = '''
@@ -111,7 +108,7 @@ class HistoryRequest(BaseModel):
 class UserRequest(BaseModel):
     username: str
 
-## api endpoint
+## api endpoints
 
 ## login/signup
 
