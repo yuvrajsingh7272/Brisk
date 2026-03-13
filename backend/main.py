@@ -155,6 +155,7 @@ def get_history(req: HistoryRequest):
 
     return {"history": formatted_history}
 
+## query Backend
 @app.post("/query")
 def query_rag(req: QueryRequest):
     conn = get_db_conn()
